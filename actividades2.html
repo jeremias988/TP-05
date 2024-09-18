@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>INDUMENTARIA RETRO 10</h1>
+    <form action="/registro" method="post">
+        <br>
+        <fieldset>
+            <legend>Información Personal</legend>
+            Nombre: <input name='nombre' type='text' tabindex='1'>
+            Apellidos: <input name='apellidos' type='text' tabindex='2'>
+        </fieldset>
+
+        <fieldset>
+
+            <legend>Datos</legend>
+
+            <label for="C.Electrónico">C.Electronico:</label>
+            <input type="text" id="C.Electrónico" name="C.Electrónico" required> <!-- tipo texto-->
+
+
+            <label for="Fecha de nacimiento">Fecha de nacimiento:</label>
+            <input type="text" id="Fecha de nacimiento" name="Fecha de nacimiento" required> <!-- tipo texto-->
+
+            </br>
+            <label for="Numero de telefono">Numero de telefono:</label>
+            <input type="text" id="Numero de telefono" name="Numero de telefono" required> <!-- tipo texto-->
+
+
+            <label for="Usuario de X">Usuario de X:</label>
+            <input type="text" id="Usuario de X" name="Usuario de X" required> <!-- tipo texto-->
+
+
+            <label for="Usuario de Instagram">Usuario de Instagram:</label>
+            <input type="text" id="Usuario de Instagram" name="Usuario de Instagram" required> <!-- tipo texto-->
+
+       <form action="/encuesta" method="post">
+        <label for="Proincia">Provincia:</label> <!-- el valor de for es el ID del select-->
+        <select id="Provincia" name="Provincia" required> <!-- selector de Proincia -->
+            <option value="">Selecciona una Provincia</option> <!-- no hay valor en el atributo value -->
+            <option value="Buenos Aires">Buenos Aires</option>
+            <!-- aquí si hay valor en value, es lo que se manda al servidor: Buenos Aires-->
+            <option value="Catamarca">Catamarca</option> <!-- valor enviado Catamarca-->
+            <option value="Chaco">Chaco</option> <!-- valor enviado Chaco -->
+            <option value="Chubut">Chubut</option> <!-- valor enviado Chubut -->
+            <option value="Córdoba">Córdoba</option> <!-- valor enviado Córdoba -->
+            <option value="Corrientes">Corrientes</option> <!-- valor enviado Corrientes -->
+            <option value="Entre Ríos">Entre Ríos</option> <!-- valor enviado Entre Ríos -->
+            <option value="Formosa">Formosa</option> <!-- valor enviado Formosa -->
+            <option value="Jujuy">Jujuy</option> <!-- valor enviado Jujuy -->
+            <option value="La Pampa">La Pampa</option> <!-- valor enviado La Pampa -->
+            <option value="La Rioja">La Rioja</option> <!-- valor enviado La Rioja -->
+            <option value="Mendoza">Mendoza</option> <!-- valor enviado Mendoza -->
+            <option value="Misiones">Misiones</option> <!-- valor enviado Misiones -->
+            <option value="Neuquén">Neuquén</option> <!-- valor enviado Neuquén -->
+            <option value="Río Negro">Río Negro</option> <!-- valor enviado Río Negro -->
+            <option value="Salta">Salta</option> <!-- valor enviado Salta -->
+            <option value="San Juan">San Juan</option> <!-- valor enviado San Juan -->
+            <option value="San Luis">San Luis</option> <!-- valor enviado San Luis -->
+            <option value="Santa Cruz">Santa Cruz</option> <!-- valor enviado Santa Cruz -->
+            <option value="Santa Fe">Santa Fe</option> <!-- valor enviado Santa Fe -->
+            <option value="Santiago del Estero">Santiago del Estero</option>
+            <!-- valor enviado Santiago del Estero -->
+            <option value="Tierra del Fuego, Antártida e Islas del Atlántico Sur">Tierra del Fuego, Antártida e
+                Islas del Atlántico Sur</option>
+            <!-- valor enviado Tierra del Fuego, Antártida e Islas del Atlántico Sur-->
+            <option value="Tucumán">Tucumán</option> <!-- valor enviado Tucumán --></form>
+      </fieldset>
+
+            </select>
+            <br>
+            <label for="Ciudad">Ciudad:</label>
+            <input type="text" id="Ciudad" name="Ciudad" required> <!-- tipo texto-->
+
+
+            <label for="Equipo/os a seguir">Equipo/os a seguir:</label>
+            <input type="text" id="Equipo/os a seguir" name="Equipo/os a seguir" required> <!-- tipo texto-->
+
+
+            <label for="Pais/es a seguir">Pais/es a seguir:</label>
+            <input type="text" id="Pais/es a seguir" name="Pais/es a seguir" required> <!-- tipo texto-->
+            </br>
+            <input type="submit" value="enviar">
+    </from>
+  
+
+
+
+
+</body>
+
+</html>
